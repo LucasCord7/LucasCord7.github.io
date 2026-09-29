@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lucas Cordeiro — desenvolvimento de software, dados e IA aplicada. Projetos de OCR, documentos e sistemas corporativos.">
+<title>Lucas Cordeiro — Software, Dados e IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="topbar">
+<a class="brand" href="#inicio" aria-label="Lucas Cordeiro — início">LC<span>.</span></a>
+<nav aria-label="Navegação principal"><a href="#projetos">Projetos</a><a href="#especialidades">Especialidades</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+<a class="top-link" href="https://github.com/LucasCord7" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+</header>
+<main id="conteudo">
+<section id="inicio" class="section hero" aria-labelledby="nome">
+<p class="eyebrow">Software / Dados / Inteligência artificial</p>
+<h1 id="nome">Lucas <em>Cordeiro</em></h1>
+<div class="hero-content"><h2>Desenvolvimento de software,<br>dados e IA aplicada.</h2><div><p>Crio aplicações para transformar documentos e dados em informação útil. Atuo em soluções para cartórios e gestão pública, combinando engenharia de software, automação e inteligência artificial com revisão humana.</p>
+<div class="actions"><a class="button" href="#projetos">Ver projetos <span aria-hidden="true">↓</span></a><a class="text-link" href="#contato">Conversar comigo <span aria-hidden="true">↗</span></a></div></div></div>
+<div class="hero-note"><span>Desenvolvimento full-stack desde 2021</span><span>Cuiabá, Brasil</span></div>
+</section>
+<section id="projetos" class="section" aria-labelledby="titulo-projetos">
+<div class="section-heading"><div><p class="index">01 / Projetos</p><h2 id="titulo-projetos">Projetos selecionados<span>.</span></h2></div><p>Aplicações de IA documental, produtos de dados e sistemas para acompanhar operações reais.</p></div>
+<div class="featured-grid">
+<article class="project">
+<div class="project-meta"><span>01 / Desktop e IA</span><span>Código público</span></div>
+<div class="project-art art-ocr" aria-hidden="true">
+<span class="art-label">OCR / VISION</span>
+<svg viewBox="0 0 440 210" fill="none" focusable="false">
+<path d="M78 39h83l22 22v113H78z" fill="#181d16" stroke="#555d4b"/>
+<path d="M161 39v23h22M95 80h64M95 93h51M95 119h64M95 132h57M95 145h38" stroke="#737b66"/>
+<rect x="90" y="73" width="76" height="26" rx="2" stroke="#cef565" stroke-opacity=".5"/>
+<g class="scan-beam"><path d="M66 0h130" stroke="#cef565"/><path d="M78 0h105v12H78z" fill="#cef565" fill-opacity=".08"/></g>
+<path d="M205 106h42m-6-5 6 5-6 5" stroke="#73835c"/>
+<rect x="270" y="58" width="104" height="102" rx="6" fill="#161b12" stroke="#4e5d3b"/>
+<g class="data-lines" stroke="#cef565"><path d="M285 79h20m8 0h43M285 99h20m8 0h32M285 119h20m8 0h43M285 139h20m8 0h25"/></g>
+</svg><span class="art-caption">Do documento à informação</span>
+</div>
+<h3>OCR AI Vision</h3><p class="project-lead">Da imagem digitalizada ao documento pesquisável, com integração ao sistema registral.</p>
+<ol class="flow" aria-label="Fluxo do OCR AI Vision"><li>Documento</li><li>Extração</li><li>Conferência</li><li>Exportação</li></ol>
+<dl><dt>O desafio</dt><dd>Transformar matrículas e registros auxiliares digitalizados em conteúdo utilizável, preservando o texto original, as referências entre atos e a identificação de cada documento.</dd><dt>O que desenvolvi</dt><dd>Aplicação desktop migrada de Python para Go com Wails e interface Vue 3. Combina modelos de visão e linguagem para extração com Tesseract para produzir PDFs que mantêm a imagem original e permitem pesquisar e copiar o texto.</dd></dl>
+<p class="project-detail">Gera texto formatado em RTF, integra a gravação ao SQL Server e registra a origem do processamento em logs por arquivo. Inclui identificação do tipo documental, conferência manual e verificação de duplicidades antes da gravação.</p>
+<ul class="tags" aria-label="Tecnologias"><li>Go</li><li>Wails</li><li>Vue 3</li><li>Tesseract</li><li>SQL Server</li></ul>
+<details class="project-more"><summary>Conhecer os recursos</summary><div><p><strong>Processamento documental:</strong> suporte a TIFF multipágina, identificação de matrículas e registros auxiliares e tratamento conservador do texto em português, priorizando a fidelidade ao documento.</p><p><strong>Integração e rastreabilidade:</strong> exportação em PDF e RTF, persistência em SQL Server e logs com informações do arquivo, modelo e provedor utilizados.</p><p><strong>Aplicação desktop:</strong> mantém o progresso ao navegar entre abas, permite configurar diferentes provedores de IA e armazena chaves no gerenciador de credenciais do Windows.</p></div></details>
+<a class="text-link project-link" href="https://github.com/LucasCord7/projeto-ocr-go" target="_blank" rel="noopener noreferrer">Ver OCR AI Vision no GitHub <span aria-hidden="true">↗</span></a>
+</article>
+<article class="project">
+<div class="project-meta"><span>02 / IA e documentos</span><span>Aplicação web</span></div>
+<div class="project-art art-rag" aria-hidden="true">
+<span class="art-label">RAG / CONTEXTO</span>
+<svg viewBox="0 0 440 210" fill="none" focusable="false">
+<g stroke="#465438"><path d="M99 65 220 106 107 155M220 106 341 64M220 106l118 50"/></g>
+<g class="retrieval-path" stroke="#cef565"><path d="m99 65 121 41 121-42M107 155l113-49 118 50"/></g>
+<g fill="#171d12" stroke="#626f50"><rect x="80" y="42" width="38" height="46" rx="4"/><rect x="88" y="132" width="38" height="46" rx="4"/><rect x="322" y="41" width="38" height="46" rx="4"/><rect x="319" y="133" width="38" height="46" rx="4"/></g>
+<g stroke="#8a9977"><path d="M90 56h18M90 64h18M90 72h11M98 146h18M98 154h18M98 162h11M332 55h18M332 63h18M332 71h11M329 147h18M329 155h18M329 163h11"/></g>
+<circle class="context-ring" cx="220" cy="106" r="39" stroke="#cef565" stroke-opacity=".25"/>
+<circle cx="220" cy="106" r="25" fill="#25351a" stroke="#a0bd65"/>
+<path d="m220 92 4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#cef565"/>
+</svg><span class="art-caption">Documentos conectados ao contexto</span>
+</div>
+<h3>cartorio-ia</h3><p class="project-lead">Um assistente jurídico que conecta perguntas ao conteúdo dos documentos.</p>
+<ol class="flow" aria-label="Fluxo do cartorio-ia"><li>Documentos</li><li>Indexação</li><li>Busca</li><li>Contexto</li></ol>
+<dl><dt>O desafio</dt><dd>Localizar informações relevantes em acervos jurídicos, inclusive em documentos digitalizados, e reunir o contexto necessário para apoiar a análise.</dd><dt>O que desenvolvi</dt><dd>Aplicação com backend em FastAPI e interface Vue 3 para ingestão, recuperação e análise de documentos. O OCR extrai o texto, enquanto PostgreSQL e pgvector sustentam a busca textual e por similaridade semântica.</dd></dl>
+<p class="project-detail">A arquitetura RAG recupera trechos relevantes para contextualizar as respostas dos modelos de linguagem. A integração com múltiplos provedores inclui alternativas de processamento por fallback.</p>
+<ul class="tags" aria-label="Tecnologias"><li>Python</li><li>FastAPI</li><li>Vue 3</li><li>PostgreSQL</li><li>pgvector</li></ul>
+<details class="project-more"><summary>Entender a solução</summary><div><p>Os documentos passam por ingestão e extração de texto. A busca combina correspondência textual com similaridade semântica para recuperar trechos relacionados à consulta.</p><p>Esses trechos fornecem contexto ao modelo de linguagem. A arquitetura integra diferentes provedores para permitir alternativas no processamento.</p></div></details>
+<a class="text-link project-link" href="#contato">Conversar sobre o cartorio-ia <span aria-hidden="true">↗</span></a>
+</article>
+</div>
+<div class="project-list">
+<article><span class="project-number">03</span><div><h3>Tradutor de Quadrinhos</h3><p>Ferramenta para traduzir mangás e quadrinhos, reunindo detecção de texto, OCR, tradução por modelos de linguagem e edição visual. Permite abrir imagens e arquivos CBZ/ZIP, traduzir os balões e ajustar o resultado manualmente.</p><details class="project-more"><summary>Conhecer os recursos</summary><div><p>Integra provedores como Gemini, OpenAI, Anthropic, Groq e DeepSeek. O reconhecimento de negrito e itálico e o uso das fontes instaladas ajudam a recompor o texto traduzido.</p><p>A limpeza dos balões usa técnicas de reconstrução de imagem com LaMA e AOT-GAN. O editor permite criar, redimensionar e ajustar caixas de texto, combinando automação com revisão manual.</p></div></details><p class="credit">Desenvolvimento, adaptações e identidade visual por Lucas Cordeiro. Projeto de origem: ComicTranslate, de ogkalu2 / ComicLabs.</p><ul class="tags"><li>Python</li><li>OCR</li><li>LLMs</li><li>Inpainting</li></ul></div><a class="text-link" href="https://github.com/LucasCord7/tradutor_quadrinhos" target="_blank" rel="noopener noreferrer" aria-label="Ver Tradutor de Quadrinhos no GitHub">Ver código <span aria-hidden="true">↗</span></a></article>
+<article><span class="project-number">04</span><div><h3>Painel de Produtividade — Workflow</h3><p>Dashboard de gestão para acompanhar a operação de cartórios em cinco dimensões: volume, prazo, qualidade, certidões e financeiro. Transforma dados do SQL Server em indicadores de produção, pendências, atrasos e erros, com análise por período, etapa e colaborador.</p><details class="project-more"><summary>Entender a solução</summary><div><p><strong>Do indicador ao detalhe:</strong> os cards e gráficos permitem consultar os registros que compõem cada resultado. A navegação combina tabelas filtradas, painéis de detalhamento, busca, paginação e exportação para Excel.</p><p><strong>Arquitetura local e nuvem:</strong> um agente instalado na unidade consulta o SQL Server e se comunica com a API FastAPI por WebSocket. Consultas históricas são executadas sob demanda pelo agente, sem acesso direto da nuvem ao banco local.</p><p><strong>Atualização eficiente:</strong> utiliza envio incremental de alterações, compressão e cache persistente em PostgreSQL. A distribuição de dados é delimitada por unidade, com acesso por token de visualização.</p><p><strong>Leitura operacional:</strong> reúne acompanhamento de protocolos, etapas em atraso, pausas, erros de tramitação, emissão de certidões e indicadores financeiros em uma interface Vue 3 com gráficos interativos.</p></div></details><ul class="tags"><li>Python / FastAPI</li><li>SQL Server</li><li>PostgreSQL</li><li>Vue 3 / Pinia</li><li>ApexCharts</li><li>WebSockets</li></ul></div><span class="project-type">Gestão operacional</span></article>
+<article><span class="project-number">05</span><div><h3>Painel de Monitoramento de Cartórios</h3><p>Plataforma de monitoramento distribuído para acompanhar a disponibilidade dos servidores, bancos de dados e serviços que sustentam a operação de múltiplos cartórios. Centraliza o estado das unidades em um mapa e em painéis, com alertas visuais e sonoros para apoiar a identificação de falhas.</p><details class="project-more"><summary>Entender a solução</summary><div><p><strong>Coleta nas unidades:</strong> um agente Windows verifica o SQL Server, serviços operacionais e recursos do servidor, como CPU e disco. Envia o estado à central para acompanhamento pelo navegador.</p><p><strong>Visibilidade em tempo real:</strong> a API FastAPI distribui atualizações por WebSocket à interface Vue 3. O mapa em Leaflet organiza a visão geográfica, enquanto gráficos e histórico de eventos apoiam a análise de disponibilidade.</p><p><strong>Detecção de indisponibilidade:</strong> além dos estados reportados pelo agente, uma rotina central identifica unidades que deixam de se comunicar e atualiza os alertas do painel.</p><p><strong>Eficiência de comunicação:</strong> combina sinais leves de atividade, envio de mudanças de estado, compressão e modo econômico noturno. O PostgreSQL mantém o histórico das alterações para consulta posterior.</p></div></details><ul class="tags"><li>Python / FastAPI</li><li>Windows Services</li><li>PostgreSQL</li><li>Vue 3 / Pinia</li><li>Leaflet</li><li>WebSockets</li></ul></div><span class="project-type">Monitoramento de TI</span></article>
+</div>
+</section>
+<section id="especialidades" class="section" aria-labelledby="titulo-especialidades">
+<p class="index">02 / Especialidades</p><h2 id="titulo-especialidades">Como posso contribuir<span>.</span></h2>
+<div class="expertise-grid">
+<article><span class="index">[ 01 ]</span><h3>Soluções com IA aplicada</h3><p>Integração de modelos de linguagem, busca contextual, OCR e visão computacional em aplicações e processos. Desenvolvimento de fluxos com múltiplos provedores, modelos locais e revisão humana dos resultados.</p></article>
+<article><span class="index">[ 02 ]</span><h3>Dados e sistemas críticos</h3><p>Modelagem, migração e conciliação de dados, com diagnóstico e otimização de consultas em SQL Server. Construção de indicadores e rotinas de validação para apoiar a operação.</p></article>
+<article><span class="index">[ 03 ]</span><h3>Desenvolvimento e modernização</h3><p>Aplicações web e desktop, da implementação à implantação e sustentação. Modernização de sistemas legados em C#/.NET, com foco em manutenção e desempenho.</p></article>
+<article><span class="index">[ 04 ]</span><h3>Integrações entre tecnologias</h3><p>Conecto sistemas legados, aplicações web, serviços locais, bancos de dados e provedores de IA. Estruturo APIs e fluxos de dados para que tecnologias diferentes trabalhem juntas com consistência e atendam às necessidades da operação.</p></article>
+</div>
+</section>
+<section id="sobre" class="section about" aria-labelledby="titulo-sobre">
+<div><p class="index">03 / Trajetória</p><h2 id="titulo-sobre">Experiência que vem<br>da operação<span>.</span></h2></div>
+<div><p class="about-intro">Mais de 10 anos de trajetória em TI. Desenvolvedor full-stack desde março de 2021, com foco atual em soluções com IA aplicada.</p><p>Comecei no suporte técnico e na análise de dados, trabalhando com migrações, treinamentos e homologação de sistemas. Essa vivência me ajuda a traduzir necessidades de usuários em soluções para cartórios e gestão pública.</p><p>Atuo da modelagem de dados ao backend, interfaces, testes, implantação e sustentação. Minha experiência inclui aplicações em Go e Python, modernização de sistemas em C#/.NET e otimização de consultas em SQL Server.</p><p>Em IA, desenvolvo aplicações com modelos de linguagem e visão, arquiteturas RAG e processamento inteligente de documentos. Minha atuação inclui recuperação híbrida de informações, integração de modelos locais e em nuvem e treinamento experimental de detectores YOLO, com avaliação dos resultados e revisão humana.</p><details class="project-more"><summary>Minha atuação em engenharia de IA</summary><div><p><strong>RAG e recuperação de informações:</strong> construção de bases documentais com ingestão de múltiplos formatos, segmentação em trechos e geração de embeddings. Trabalho com recuperação semântica vetorial e RAG híbrido, combinando busca textual e vetorial por Reciprocal Rank Fusion (RRF), com PostgreSQL e pgvector. Preservo referências ao documento, à página e ao ato para fundamentar respostas com citações.</p><p><strong>Visão computacional e treinamento:</strong> preparação e validação de datasets anotados, separação entre treino, validação e teste e treinamento e retreinamento experimental de modelos YOLO com Ultralytics para localizar campos em documentos de identificação. O fluxo inclui avaliação por classe e exportação de pesos para ONNX. A detecção das regiões é integrada à leitura por Tesseract e PP-OCR, mantendo distintas as etapas de localização e reconhecimento do texto.</p><p><strong>Integração e qualidade:</strong> orquestração de provedores de IA, modelos locais e serviços em nuvem, gestão de prompts, estratégias de fallback e controle de concorrência. Desenvolvo fluxos de extração estruturada e conferência documental com atenção à origem das informações, à fidelidade dos dados e à validação pelo operador.</p></div></details><p class="education">Bacharel em Ciências da Computação<br><span>Unirondon · Conclusão em 2017</span></p><ul class="tags" aria-label="Principais tecnologias"><li>Go</li><li>Python</li><li>C# / .NET</li><li>Vue 3</li><li>TypeScript</li><li>SQL Server</li><li>PostgreSQL</li><li>Docker</li></ul></div>
+</section>
+<section id="contato" class="section contact" aria-labelledby="titulo-contato">
+<p class="index">04 / Contato</p><h2 id="titulo-contato">Vamos conversar<br>sobre seu <em>projeto?</em></h2>
+<p>Se você precisa desenvolver um sistema, integrar dados ou explorar IA na sua operação, me conte o que tem em mente.</p>
+<div class="actions"><a class="button" href="https://wa.me/5565981341683" target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a><span class="phone">(65) 98134-1683</span></div>
+<a class="contact-email" href="mailto:Lucashomework7@gmail.com"><span>Lucashomework7@gmail.com</span><span aria-hidden="true">↗</span></a>
+<div class="contact-links"><a href="https://linkedin.com/in/lucas-cordeiro-dev" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/LucasCord7" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Cuiabá, MT · Brasil</span></div>
+</section>
+</main>
+<footer><span>© 2026 Lucas Cordeiro</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+<script src="scroll-effects.js" defer></script>
+</body>
+</html>
